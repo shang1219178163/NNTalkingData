@@ -1,5 +1,5 @@
 PODS:
-  - NNTalkingData (0.1.0)
+  - NNTalkingData (0.1.1)
 
 DEPENDENCIES:
   - NNTalkingData (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NNTalkingData: f2af50ac826e78dfa88ddb1fa59d50392309874c
+  NNTalkingData: 04e5ba4b8ac475106b59d0d534b9c102530d7bc1
 
 PODFILE CHECKSUM: 1cbb15533f2082c5be3e39f0ffcdffc9708bdcc7
 

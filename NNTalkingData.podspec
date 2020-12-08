@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NNTalkingData'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of NNTalkingData.'
-  s.description      = 'TODO: Add long description of the pod here.'
+  s.version          = '0.1.1'
+  s.summary          = 'TalkingData 的 pod 封装'
+  s.description      = 'http://doc.talkingdata.com/posts/20'
 
   s.homepage         = 'https://github.com/shang1219178163/NNTalkingData'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
   s.requires_arc = true
 
-  s.frameworks = 'AdSupport', 'CoreTelephony', 'CoreMotion', 'Security', 'SystemConfiguration',
-    'libz.tbd','libc++.tbd'
+  s.frameworks = 'AdSupport', 'CoreTelephony', 'CoreMotion', 'Security', 'SystemConfiguration'
 
   s.source_files = 'NNTalkingData/Classes/**/*'
   
