@@ -1,0 +1,16 @@
+PODS:
+  - NNTalkingData (0.1.0)
+
+DEPENDENCIES:
+  - NNTalkingData (from `../`)
+
+EXTERNAL SOURCES:
+  NNTalkingData:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NNTalkingData: f2af50ac826e78dfa88ddb1fa59d50392309874c
+
+PODFILE CHECKSUM: 1cbb15533f2082c5be3e39f0ffcdffc9708bdcc7
+
+COCOAPODS: 1.10.0

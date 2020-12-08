@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
   s.requires_arc = true
 
-  s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage',
-    'CoreLocation','CoreTelephony', 'GLKit','QuartzCore', 'WebKit'
+  s.frameworks = 'AdSupport', 'CoreTelephony', 'CoreMotion', 'Security', 'SystemConfiguration',
+    'libz.tbd','libc++.tbd'
 
   s.source_files = 'NNTalkingData/Classes/**/*'
   

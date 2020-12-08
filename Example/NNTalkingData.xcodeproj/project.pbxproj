@@ -7,23 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		146050B923A315FA00C10F34 /* NNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146050B823A315FA00C10F34 /* NNHomeViewController.m */; };
 		1460510223A3266900C10F34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1460510423A3266900C10F34 /* InfoPlist.strings */; };
 		1460510623A3267500C10F34 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1460510823A3267500C10F34 /* Localizable.strings */; };
 		1460510C23A3290A00C10F34 /* NSBundle+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460510B23A3290A00C10F34 /* NSBundle+Ex.m */; };
-		1F8DB05705C68A519B3657C5 /* Pods_NNTalkingData_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF662588F050DFA03A76722 /* Pods_NNTalkingData_Example.framework */; };
+		14BF6961257F5AA8006B5BE9 /* NNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BF695F257F5AA7006B5BE9 /* NNHomeViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* NNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* NNAppDelegate.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		E212ED15ED3B0A6C9C84E4FF /* Pods_NNTalkingData_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B88FBE2409FFC6AC407449A /* Pods_NNTalkingData_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		146050B723A315FA00C10F34 /* NNHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNHomeViewController.h; sourceTree = "<group>"; };
-		146050B823A315FA00C10F34 /* NNHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNHomeViewController.m; sourceTree = "<group>"; };
 		146050FC23A325FF00C10F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		146050FD23A3260800C10F34 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		1460510323A3266900C10F34 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -47,10 +42,10 @@
 		1460510923A3267900C10F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1460510A23A3290A00C10F34 /* NSBundle+Ex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Ex.h"; sourceTree = "<group>"; };
 		1460510B23A3290A00C10F34 /* NSBundle+Ex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Ex.m"; sourceTree = "<group>"; };
+		14BF695F257F5AA7006B5BE9 /* NNHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNHomeViewController.m; sourceTree = "<group>"; };
+		14BF6960257F5AA7006B5BE9 /* NNHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNHomeViewController.h; sourceTree = "<group>"; };
 		38A1074A23246DE14031D942 /* Pods-NNTalkingData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNTalkingData_Tests.release.xcconfig"; path = "Target Support Files/Pods-NNTalkingData_Tests/Pods-NNTalkingData_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4A138EA3AC12F0804AB029DB /* Pods-NNTalkingData_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNTalkingData_Example.debug.xcconfig"; path = "Target Support Files/Pods-NNTalkingData_Example/Pods-NNTalkingData_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4B88FBE2409FFC6AC407449A /* Pods_NNTalkingData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNTalkingData_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CF662588F050DFA03A76722 /* Pods_NNTalkingData_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NNTalkingData_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* NNTalkingData_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNTalkingData_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,15 +57,14 @@
 		6003F59D195388D20070C39A /* NNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* NNTalkingData_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNTalkingData_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		698E18F677062F0A963759A4 /* Pods-NNTalkingData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNTalkingData_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NNTalkingData_Tests/Pods-NNTalkingData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C071C1271368BF3F61BFAFE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C071C1271368BF3F61BFAFE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C91524C86CD47A6B8FEE3857 /* Pods-NNTalkingData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNTalkingData_Example.release.xcconfig"; path = "Target Support Files/Pods-NNTalkingData_Example/Pods-NNTalkingData_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CA6639B294F7956982B6A73E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FEFC3B6205FF0063FE86BBFE /* NNTalkingData.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NNTalkingData.podspec; path = ../NNTalkingData.podspec; sourceTree = "<group>"; };
+		CA6639B294F7956982B6A73E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FEFC3B6205FF0063FE86BBFE /* NNTalkingData.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NNTalkingData.podspec; path = ../NNTalkingData.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +75,6 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				1F8DB05705C68A519B3657C5 /* Pods_NNTalkingData_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,10 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E212ED15ED3B0A6C9C84E4FF /* Pods_NNTalkingData_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +98,6 @@
 				698E18F677062F0A963759A4 /* Pods-NNTalkingData_Tests.debug.xcconfig */,
 				38A1074A23246DE14031D942 /* Pods-NNTalkingData_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,9 +128,6 @@
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
-				5CF662588F050DFA03A76722 /* Pods_NNTalkingData_Example.framework */,
-				4B88FBE2409FFC6AC407449A /* Pods_NNTalkingData_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,10 +135,10 @@
 		6003F593195388D20070C39A /* Example for NNTalkingData */ = {
 			isa = PBXGroup;
 			children = (
+				14BF6960257F5AA7006B5BE9 /* NNHomeViewController.h */,
+				14BF695F257F5AA7006B5BE9 /* NNHomeViewController.m */,
 				6003F59C195388D20070C39A /* NNAppDelegate.h */,
 				6003F59D195388D20070C39A /* NNAppDelegate.m */,
-				146050B723A315FA00C10F34 /* NNHomeViewController.h */,
-				146050B823A315FA00C10F34 /* NNHomeViewController.m */,
 				1460510A23A3290A00C10F34 /* NSBundle+Ex.h */,
 				1460510B23A3290A00C10F34 /* NSBundle+Ex.m */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -386,8 +373,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14BF6961257F5AA8006B5BE9 /* NNHomeViewController.m in Sources */,
 				6003F59E195388D20070C39A /* NNAppDelegate.m in Sources */,
-				146050B923A315FA00C10F34 /* NNHomeViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				1460510C23A3290A00C10F34 /* NSBundle+Ex.m in Sources */,
 			);
